@@ -1,0 +1,24 @@
+[1/902] Generating project_elf_src_esp32.c
+[2/902] Generating memory.ld linker script...
+[3/902] cmd.exe /C "cd /D C:\Users\lucho\Desktop\Proyectos_ESP_en_C\Esp_Idf_MQTT\build\esp-idf\main && C:\Espressif\tools\tools\cmake\3.24.0\bin\cmake.exe -E echo "Failed to create SPIFFS image for partition 'storage'. " "Check project configuration if using the correct partition table file." && C:\Espressif\tools\tools\cmake\3.24.0\bin\cmake.exe -E remove C:/Users/lucho/Desktop/Proyectos_ESP_en_C/Esp_Idf_MQTT/build/esp-idf/main/OkCJb.cmake && C:\Espressif\tools\tools\cmake\3.24.0\bin\cmake.exe -E env "FAIL_MESSAGE=Failing the build (see errors on lines above)" C:/Espressif/tools/tools/cmake/3.24.0/bin/cmake.exe -P C:/ESP/Espressif/frameworks/esp-idf-v5.1.2/tools/cmake/scripts/fail.cmake"
+FAILED: esp-idf/main/CMakeFiles/spiffs_storage_bin C:/Users/lucho/Desktop/Proyectos_ESP_en_C/Esp_Idf_MQTT/build/esp-idf/main/CMakeFiles/spiffs_storage_bin 
+cmd.exe /C "cd /D C:\Users\lucho\Desktop\Proyectos_ESP_en_C\Esp_Idf_MQTT\build\esp-idf\main && C:\Espressif\tools\tools\cmake\3.24.0\bin\cmake.exe -E echo "Failed to create SPIFFS image for partition 'storage'. " "Check project configuration if using the correct partition table file." && C:\Espressif\tools\tools\cmake\3.24.0\bin\cmake.exe -E remove C:/Users/lucho/Desktop/Proyectos_ESP_en_C/Esp_Idf_MQTT/build/esp-idf/main/OkCJb.cmake && C:\Espressif\tools\tools\cmake\3.24.0\bin\cmake.exe -E env "FAIL_MESSAGE=Failing the build (see errors on lines above)" C:/Espressif/tools/tools/cmake/3.24.0/bin/cmake.exe -P C:/ESP/Espressif/frameworks/esp-idf-v5.1.2/tools/cmake/scripts/fail.cmake"
+Failed to create SPIFFS image for partition 'storage'.  Check project configuration if using the correct partition table file.
+CMake Error at C:/ESP/Espressif/frameworks/esp-idf-v5.1.2/tools/cmake/scripts/fail.cmake:3 (message):
+  Failing the build (see errors on lines above)
+
+
+[4/902] Generating ../../partition_table/partition-table.bin
+Partition table binary generated. Contents:
+*******************************************************************************
+# ESP-IDF Partition Table
+# Name, Type, SubType, Offset, Size, Flags
+nvs,data,nvs,0x9000,24K,
+phy_init,data,phy,0xf000,4K,
+factory,app,factory,0x10000,1M,
+*******************************************************************************
+[5/902] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_server.c.obj
+[6/902] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_keys.c.obj
+[7/902] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_server.c.obj
+[8/902] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/ESP/Espressif/frameworks/esp-idf-v5.1.2/components/mbedtls/port/mbedtls_debug.c.obj
+ninja: build stopped: subcommand failed.
